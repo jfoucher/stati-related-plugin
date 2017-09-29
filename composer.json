@@ -1,0 +1,17 @@
+{
+    "name": "stati/related",
+    "description": "A related posts plugin for Stati",
+    "authors": [
+        {
+            "name": "jfoucher",
+            "email": "jfoucher@6px.eu"
+        }
+    ],
+    "autoload": {
+        "psr-4": {"Stati\\Plugin\\Related\\": "src/", "Stati\\Plugin\\Related\\Tests\\": "tests/"}
+    },
+    "require": {
+        "php": "^5.6 || ^7.0"
+    },
+    "bin": ["build/related.phar"]
+}
